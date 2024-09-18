@@ -221,7 +221,7 @@ but uses a regular expression to exclude matching DTL templates used by the admi
 "OPTIONS": {
     # Match the template names ending in .html but not the ones in the admin folder.
     "match_extension": ".html",
-    "match_regex": r"^(?!admin/).*",
+    "match_regex": r"(?!.*admin)",
 }
 ----
 
